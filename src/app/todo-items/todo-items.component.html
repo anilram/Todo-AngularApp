@@ -1,0 +1,15 @@
+<section>
+  <div>
+    <input type="text" [(ngModel)]="todo" (keyup.enter)="addTodo()">
+  </div>
+  <div *ngIf="todos.length>0">
+    <ul>
+      <li *ngFor="let todo of todos; let index=index">
+
+        <input #inputText class="noborders" [size]="todo.length" readonly
+          (dblclick)="allowEdit($event)" [value]="todo" (keyup.enter)="updateTodo($event,index)">
+          <span (click)="deleteTodo(index)" class="doubletab red pointer">X</span>
+      </li>
+    </ul>
+  </div>
+</section>
