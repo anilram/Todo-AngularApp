@@ -16,6 +16,12 @@ Double click the item that you want edit and press enter to update the item.
 
 Todo items will be added to local storage of browser.
 
+## Deploy it to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anilram/Todo-AngularApp)
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

@@ -1,0 +1,7 @@
+{
+  "name": "Angular Todo App",
+  "description": "A Todo App that contains Add,Edit,Update, Delete functionalities with Local Storage Support.",
+  "repository": "https://github.com/anilram/Todo-AngularApp",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "angular", "todo-app"]
+}
