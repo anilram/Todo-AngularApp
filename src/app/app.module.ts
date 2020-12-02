@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoItemsComponent } from './todo-items/todo-items.component';
+import { TodoLocalStorageService } from './services/todo-local-storage.service'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { TodoItemsComponent } from './todo-items/todo-items.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [TodoLocalStorageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

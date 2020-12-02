@@ -14,6 +14,8 @@ A delete option will be provided along with each todo item.
 
 Double click the item that you want edit and press enter to update the item.
 
+Todo items will be added to local storage of browser.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
