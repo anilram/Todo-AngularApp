@@ -1,6 +1,18 @@
+
+
 # Todo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+
+## TODO APP
+
+![diagram](src/assets/items.PNG)
+
+With Enter key event on text box, text will be added to your todo list.
+
+A delete option will be provided along with each todo item.
+
+Double click the item that you want edit and press enter to update the item.
 
 ## Development server
 
