@@ -8,13 +8,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![diagram](src/assets/items.PNG)
 
-With Enter key event on text box, text will be added to your todo list.
+With the Enter key event on the text box, text will be added to your to-do list.
 
-A delete option will be provided along with each todo item.
+A delete option will be provided along with each to-do item.
 
-Double click the item that you want edit and press enter to update the item.
+Double click the item that you want to edit and press enter to update the item.
 
-Todo items will be added to local storage of browser.
+To-do items are available in the local storage of browser
 
 ## Deploy it to Heroku
 
